@@ -13,7 +13,14 @@ stored in your dictionary.
 """
 
 person = {'first_name': 'dave', 'last_name': 'laney', 'age': 5, 'city': 'eldon'}
-for key, value in person.items():
-    print(f'\nKey: {key}')
-    print(f'Value: {value}')
+# loops are later
+#for key, value in person.items():
+ #   print(f'\nKey: {key}')
+  #  print(f'Value: {value}')
+
+print(f"First Name: {person['first_name'].title()}")
+print(f"Last Name: {person['last_name'].title()}")
+print(f"City: {person['city'].title()}")
+print(f"Age: {person['age']}")
+
 
