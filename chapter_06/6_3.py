@@ -10,22 +10,13 @@ glossary = {
     '02 - comment': 'In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters',
     '03 - float': 'Float () is a built-in Python function that converts a number or a string to a float value and returns the result.',
     '04 - string': 'A sequence of Unicode characters.',
-    '05 - char': 'The chr () method returns a string representing a character whose Unicode code point is an integer.'}
+    '05 - char': 'The chr () method returns a string representing a character whose Unicode code point is an integer.',
+    '06 - dictionary': 'Similar to a HashMap in Java',
+    '07 - set': 'Similar to a list',
+    '08 - tuple': 'TBD',
+    '09 - list': 'TBD',
+    '10 - array': 'Does this exist in Python?'}
 
 
-word = '01 - integer'
-print("\n" + word.title() + ":\n\t" + glossary[word])
-
-word = '02 - comment'
-print("\n" + word.title() + ":\n\t" + glossary[word])
-
-word = '03 - float'
-print("\n" + word.title() + ":\n\t" + glossary[word])
-
-word = '04 - string'
-print("\n" + word.title() + ":\n\t" + glossary[word])
-
-word = '05 - char'
-print("\n" + word.title() + ":\n\t" + glossary[word])
-
-
+for word in glossary:
+    print("\n" + word.title() + ":\n\t" + glossary[word])
