@@ -30,3 +30,9 @@ print(f"John's favnum is: {favNum[name]}")
 
 name = 'sean'
 print(f"Sean's favnum is: {favNum[name]}")
+
+
+bugger = favNum.get('fred', 'Fred don\'t have favnum')
+
+print(bugger)
+

@@ -6,26 +6,26 @@ Print each word and its meaning as neatly formatted output. You might print the 
 """
 
 glossary = {
-    'integer': 'An integer is a whole number (not a fraction) that can be positive, negative, or zero. Integers are a commonly used data type in computer programming. ... For example, whenever a number is being incremented, such as within a "for loop" or "while loop," an integer is used.',
-    'comment': 'In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters',
-    'float': 'Float () is a built-in Python function that converts a number or a string to a float value and returns the result.',
-    'string': 'A sequence of Unicode characters.',
-    'char': 'The chr () method returns a string representing a character whose Unicode code point is an integer.'}
+    '01 - integer': 'An integer is a whole number (not a fraction) that can be positive, negative, or zero. Integers are a commonly used data type in computer programming. ... For example, whenever a number is being incremented, such as within a "for loop" or "while loop," an integer is used.',
+    '02 - comment': 'In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. They are added with the purpose of making the source code easier for humans to understand, and are generally ignored by compilers and interpreters',
+    '03 - float': 'Float () is a built-in Python function that converts a number or a string to a float value and returns the result.',
+    '04 - string': 'A sequence of Unicode characters.',
+    '05 - char': 'The chr () method returns a string representing a character whose Unicode code point is an integer.'}
 
 
-word = 'integer'
+word = '01 - integer'
 print("\n" + word.title() + ":\n\t" + glossary[word])
 
-word = 'comment'
+word = '02 - comment'
 print("\n" + word.title() + ":\n\t" + glossary[word])
 
-word = 'float'
+word = '03 - float'
 print("\n" + word.title() + ":\n\t" + glossary[word])
 
-word = 'string'
+word = '04 - string'
 print("\n" + word.title() + ":\n\t" + glossary[word])
 
-word = 'char'
+word = '05 - char'
 print("\n" + word.title() + ":\n\t" + glossary[word])
 
 
